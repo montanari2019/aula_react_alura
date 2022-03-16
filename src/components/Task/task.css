@@ -1,0 +1,20 @@
+.ajust-padding {
+  padding-top: 5%;
+}
+
+.ajust-card {
+  margin: 2%;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 999px) {
+  .display {
+    justify-content: space-between;
+  }
+}

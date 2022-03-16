@@ -1,17 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
-import TaskCard from './components/Task'
+import Header from './components/Header/Header'
+import TaskCard from './components/Task/Task'
 
 
 function App() {
   return (
     <div>
-      <Header/>
-      <div>
-        {/* <TaskCard/> */}
-        
-      </div>
+      <TaskCard></TaskCard>
     </div>
   );
 }
