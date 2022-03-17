@@ -1,0 +1,39 @@
+.text-title {
+  font-size: 36px;
+  color: #212529;
+  text-align: center;
+  margin-top: 10%;
+  letter-spacing: 5px;
+}
+.text-subtitle {
+  font-size: 18px;
+  color: #212529;
+  text-align: justify;
+  max-height: 50%;
+  margin: 5%;
+}
+.card-sub {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.button-home {
+  margin-top: 10%;
+  /* padding-left: 15%;
+  padding-right: 15%; */
+}
+.display-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 999px) {
+  .text-title {
+    letter-spacing: 15px;
+  }
+  .text-subtitle {
+    margin: 4%;
+  }
+}

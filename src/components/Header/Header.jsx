@@ -3,6 +3,10 @@ import "bootstrap/dist/js/bootstrap.esm";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./estilo.css";
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
+import Tasks from "../Task/Task";
+import Home from "../Home/Home";
 
 function headerView() {
   return (
@@ -13,10 +17,22 @@ function headerView() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className="menu-ajust" href="https://github.com/montanari2019/aula_react_alura">Git Hub</Nav.Link>
-              <Nav.Link className="menu-ajust" href="#pricing">Tarefas</Nav.Link>
-              <Nav.Link className="menu-ajust" href="#pricing">Equipes</Nav.Link>
-            </Nav>  
+              
+              <Link to="/" className="menu-ajust">
+                Home
+              </Link>
+
+              <Link to="/task" className="menu-ajust">
+                Tarefas
+              </Link>
+
+              <Link
+                to="https://github.com/montanari2019/aula_react_alura"
+                className="menu-ajust"
+              >
+                Git Hub
+              </Link>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>

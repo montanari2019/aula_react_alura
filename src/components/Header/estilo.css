@@ -3,5 +3,19 @@
 }
 .menu-ajust{
     padding: 20px;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+    font-weight: bold;
+    letter-spacing: 2px;
 
 }
+.menu-ajust:hover {
+    background-color: #fff;
+    transition: all 0.5;
+}
+
+@media (min-width: 999px) {
+    .menu-ajust {
+      margin-left: 10px;
+    }
+  }
