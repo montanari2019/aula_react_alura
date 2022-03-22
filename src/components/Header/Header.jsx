@@ -26,6 +26,10 @@ function headerView() {
                 Tarefas
               </Link>
 
+              <Link to="/login" className="menu-ajust">
+                Login
+              </Link>
+
               <Link
                 to="https://github.com/montanari2019/aula_react_alura"
                 className="menu-ajust"
