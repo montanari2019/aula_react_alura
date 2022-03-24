@@ -18,7 +18,7 @@ function headerView() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               
-              <Link to="/" className="menu-ajust">
+              <Link to="/home" className="menu-ajust">
                 Home
               </Link>
 
